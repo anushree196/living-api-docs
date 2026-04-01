@@ -1,0 +1,62 @@
+# ─────────────────────────────────────────────
+# Living API Docs — .gitignore
+# ─────────────────────────────────────────────
+
+# Environment & Secrets — NEVER commit these
+.env
+*.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+build/
+dist/
+*.egg-info/
+
+# Virtual Environment
+venv/
+env/
+.venv/
+ENV/
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# ─────────────────────────────────────────────
+# Data folders — generated at runtime
+# ─────────────────────────────────────────────
+data/cloned_repos/
+data/faiss_index/
+data/generated_docs/
+data/*.db
+data/*.sqlite3
+
+# Keep folder structure
+!data/.gitkeep
+!data/cloned_repos/.gitkeep
+!data/faiss_index/.gitkeep
+!data/generated_docs/.gitkeep
+
+# ─────────────────────────────────────────────
+# OS
+# ─────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ─────────────────────────────────────────────
+# IDE
+# ─────────────────────────────────────────────
+.vscode/settings.json
+.idea/
+
+# ─────────────────────────────────────────────
+# Misc
+# ─────────────────────────────────────────────
+fix_generator.py
+*.log
