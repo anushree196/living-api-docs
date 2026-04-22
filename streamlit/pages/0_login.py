@@ -50,7 +50,7 @@ st.markdown("""
     <h1 style="font-size:2rem; font-weight:700; 
                background:linear-gradient(90deg,#00d4aa,#58a6ff);
                -webkit-background-clip:text; -webkit-text-fill-color:transparent;">
-        DocPulse - Livivng API Documentation System
+        DocPulse - Living API Documentation System
     </h1>
     <p style="color:#8b949e; font-size:1rem;">
         AI-powered documentation that updates itself
