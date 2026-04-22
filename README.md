@@ -33,7 +33,7 @@ You push code → System detects API change → LLM generates docs
 → Email arrives with magic link → Click → Review & approve
 → Export to GitHub Pages → Live docs URL ready
 ```
-
+## Check the Live Demo -- https://living-api-docs-generator.streamlit.app/
 ---
 
 ## 🏗️ Architecture
