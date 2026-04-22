@@ -12,7 +12,7 @@ import streamlit as st
 from storage.db import create_or_get_user, get_user_by_token, ensure_users_table
 from publisher.email_notifier import send_magic_link
 
-st.set_page_config(page_title="Sign In · Living API Docs", layout="centered")
+st.set_page_config(page_title="Sign In · DocPulse ", layout="centered")
 
 ensure_users_table()
 
