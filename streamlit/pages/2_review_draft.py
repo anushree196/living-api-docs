@@ -20,7 +20,7 @@ from publisher.markdown_exporter import export_markdown
 from publisher.swagger_exporter import export_swagger
 from publisher.github_pages import publish_to_github_pages
 
-st.set_page_config(page_title="Review Drafts · Living API Docs", layout="wide")
+st.set_page_config(page_title="Review Drafts · DocPulse ", layout="wide")
 
 st.markdown("# ✏️ Review Drafts")
 st.markdown("Review AI-generated documentation. Approve as-is, edit before approving, or reject to regenerate.")
