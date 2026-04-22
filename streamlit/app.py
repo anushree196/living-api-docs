@@ -38,7 +38,7 @@ def handle_webhook_notify():
 
 # ── Page config (must be first Streamlit call) ──
 st.set_page_config(
-    page_title="DocPulse - Livivng API Documentattion System",
+    page_title="DocPulse - Livivng API Documentation System",
     page_icon="📄",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -197,7 +197,7 @@ if url_token and not st.session_state.get("user_email"):
 if not st.session_state.get("user_email"):
     st.markdown("""
     <div class="hero">
-        <h1>Welcome to DocPulse - Livivng API Documentattion System </h1>
+        <h1>Welcome to DocPulse - Livivng API Documentation System </h1>
         <p>Please sign in to start monitoring your APIs and generating documentation.</p>
     </div>
     """, unsafe_allow_html=True)
@@ -241,7 +241,7 @@ with st.sidebar:
 # ── Home Page ──
 st.markdown("""
 <div class="hero">
-    <h1>DocPulse - Livivng API Documentattion System</h1>
+    <h1>DocPulse - Livivng API Documentation System</h1>
     <p>Event-driven, AI-augmented documentation that updates itself whenever your API changes.</p>
 </div>
 """, unsafe_allow_html=True)
